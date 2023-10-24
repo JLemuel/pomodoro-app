@@ -8,7 +8,12 @@ const PomodoroWrapper = ({ children }) => {
   const { appliedSettings } = useSelector((state) => state.pomodoro);
   const { font } = appliedSettings;
 
-  return <PomodoroWrap font={font}>{children}</PomodoroWrap>;
+  return (
+    <PomodoroWrap font={font}>
+      {children}
+      <p>Crafted By: JLemuel</p>
+    </PomodoroWrap>
+  );
 };
 
 export default PomodoroWrapper;

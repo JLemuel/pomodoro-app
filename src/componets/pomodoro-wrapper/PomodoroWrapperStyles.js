@@ -10,6 +10,11 @@ export const PomodoroWrap = styled.main`
 
   font-family: ${(props) => props.font}, sans-serif;
 
+  p{
+    margin-top: 6rem;
+    color: hsl(234, 39%, 20%);
+  }
+
   .logo {
     margin-top: 2.8rem;
 
