@@ -1,6 +1,5 @@
 {
   "name": "pomodoro-app",
-  "homepage": "https://aleksfedotov.github.io/pomodoro-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
